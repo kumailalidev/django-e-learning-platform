@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "chat.apps.ChatConfig",
     "embed_video",
     "rest_framework",
+    "channels",
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,5 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
+
+ASGI_APPLICATION = "educa.asgi.application"
