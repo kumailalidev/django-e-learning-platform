@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "chat.apps.ChatConfig",
     "embed_video",
     "debug_toolbar",
+    "redisboard",
     "rest_framework",
     "channels",
 ]
