@@ -2,6 +2,9 @@
 .vscode/
 etcetera/
 
+# NGINX and uWSGI
+uwsgi_app.sock
+
 # Django stuff:
 *.log
 local_settings.py
