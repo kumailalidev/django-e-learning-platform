@@ -1,6 +1,7 @@
 # Files and folders
 .vscode/
 etcetera/
+ssl/
 
 # NGINX and uWSGI
 uwsgi_app.sock
